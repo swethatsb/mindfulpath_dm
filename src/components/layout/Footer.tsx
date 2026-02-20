@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Heart, Mail, Phone, MapPin, Facebook, Twitter, Instagram, Linkedin } from "lucide-react";
+import { Heart, Mail, Phone, MapPin, Facebook, Instagram } from "lucide-react";
 
 const footerLinks = {
   services: [
@@ -30,9 +30,7 @@ const footerLinks = {
 
 const socialLinks = [
   { icon: Facebook, href: "#", label: "Facebook" },
-  { icon: Twitter, href: "#", label: "Twitter" },
-  { icon: Instagram, href: "#", label: "Instagram" },
-  { icon: Linkedin, href: "#", label: "LinkedIn" },
+  { icon: Instagram, href: "https://www.instagram.com/your.mindfulpath?utm_source=qr&igsh=MTZucmhubzcxYXFqZA==", label: "Instagram" },
 ];
 
 export function Footer() {
@@ -55,18 +53,18 @@ export function Footer() {
               Your trusted partner in mental wellness. We provide compassionate, professional therapy services to help you thrive.
             </p>
             <div className="space-y-3">
-              <a href="mailto:hello@mindfulpath.com" className="flex items-center gap-2 text-sm text-muted-foreground hover:text-primary transition-colors">
-                <Mail className="w-4 h-4" />
-                hello@mindfulpath.com
-              </a>
-              <a href="tel:+1234567890" className="flex items-center gap-2 text-sm text-muted-foreground hover:text-primary transition-colors">
-                <Phone className="w-4 h-4" />
-                +1 (234) 567-890
-              </a>
-              <div className="flex items-center gap-2 text-sm text-muted-foreground">
-                <MapPin className="w-4 h-4" />
-                123 Wellness Street, Health City
-              </div>
+                  <a href="mailto:care@urmindfulpath.com" className="flex items-center gap-2 text-sm text-muted-foreground hover:text-primary transition-colors">
+                    <Mail className="w-4 h-4" />
+                    care@urmindfulpath.com
+                  </a>
+                  <a href="tel:+919445380065" className="flex items-center gap-2 text-sm text-muted-foreground hover:text-primary transition-colors">
+                    <Phone className="w-4 h-4" />
+                    9445380065
+                  </a>
+                  <div className="flex items-center gap-2 text-sm text-muted-foreground">
+                    <MapPin className="w-4 h-4" />
+                    IIM Bodhgaya, Bihar
+                  </div>
             </div>
           </div>
 
