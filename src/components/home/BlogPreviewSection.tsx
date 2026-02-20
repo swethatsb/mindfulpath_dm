@@ -49,8 +49,13 @@ export function BlogPreviewSection() {
             >
               <Link to={`/resources/${article.slug}`} className="block h-full">
                 <div className="card-wellness overflow-hidden h-full group">
-                  {/* Image Placeholder */}
-                  <div className="aspect-[16/10] bg-gradient-to-br from-sage-light via-sky-light to-lavender" />
+                  <div className="aspect-[16/10] mb-0 overflow-hidden">
+                    {article.thumbnail ? (
+                      <img src={article.thumbnail} alt={article.title} className="w-full h-full object-cover" />
+                    ) : (
+                      <div className="w-full h-full bg-gradient-to-br from-sage-light via-sky-light to-lavender" />
+                    )}
+                  </div>
                   
                   <div className="p-6">
                     {/* Category */}

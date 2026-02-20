@@ -6,6 +6,7 @@ export type Article = {
   readTime: string;
   date: string;
   slug: string;
+  thumbnail?: string;
   content?: string;
 };
 
@@ -19,6 +20,7 @@ export const articles: Article[] = [
     readTime: "5 min read",
     date: "Feb 5, 2026",
     slug: "daily-habits-mental-health",
+    thumbnail: "/1.png",
     content:
       `
   <div style="font-family: 'Segoe UI', sans-serif; line-height: 1.8; color: #333;">
@@ -155,6 +157,7 @@ export const articles: Article[] = [
     readTime: "8 min read",
     date: "Feb 3, 2026",
     slug: "understanding-anxiety",
+    thumbnail: "/2.png",
     content:
       `
   <div style="font-family: 'Segoe UI', sans-serif; line-height: 1.8; color: #333;">
@@ -347,6 +350,7 @@ export const articles: Article[] = [
     readTime: "6 min read",
     date: "Feb 1, 2026",
     slug: "mindfulness-stress-management",
+    thumbnail: "/3.png",
     content: `
   <div style="font-family: 'Segoe UI', sans-serif; line-height: 1.8; color: #333;">
 

@@ -17,7 +17,13 @@ export default function Resources() {
           {articles.map((article) => (
             <Link key={article.slug} to={`/resources/${article.slug}`} className="block">
               <article className="card-wellness p-6 h-full group">
-                <div className="aspect-[16/10] bg-gradient-to-br from-sage-light via-sky-light to-lavender mb-4 rounded" />
+                  <div className="aspect-[16/10] mb-4 rounded overflow-hidden">
+                    {article.thumbnail ? (
+                      <img src={article.thumbnail} alt={article.title} className="w-full h-full object-cover" />
+                    ) : (
+                      <div className="w-full h-full bg-gradient-to-br from-sage-light via-sky-light to-lavender" />
+                    )}
+                  </div>
                 <h2 className="font-display text-xl font-semibold mb-2 group-hover:text-primary transition-colors">
                   {article.title}
                 </h2>
