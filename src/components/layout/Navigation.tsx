@@ -3,6 +3,7 @@ import { Link, useLocation } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X, Heart, ChevronDown } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { useAuth } from "@/context/AuthContext";
 
 const navLinks = [
   { name: "Home", path: "/" },
@@ -27,6 +28,12 @@ export function Navigation() {
   const [isOpen, setIsOpen] = useState(false);
   const [activeDropdown, setActiveDropdown] = useState<string | null>(null);
   const location = useLocation();
+  let auth: any = null;
+  try {
+    auth = useAuth();
+  } catch {
+    auth = null;
+  }
 
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-lg border-b border-border/50">
@@ -90,9 +97,24 @@ export function Navigation() {
 
           {/* CTA Buttons */}
           <div className="hidden lg:flex items-center gap-3">
-            <Button variant="ghost" size="sm" asChild>
-              <Link to="/login">Sign In</Link>
-            </Button>
+            {auth && auth.user ? (
+              <div className="flex items-center gap-2">
+                <span className="text-sm text-muted-foreground">Hi, {auth.user.name}</span>
+                <Button variant="outline" size="sm" onClick={() => auth.signOut()}>
+                  Sign Out
+                </Button>
+              </div>
+            ) : (
+              <>
+                <Button variant="ghost" size="sm" asChild>
+                  <Link to="/login">Sign In</Link>
+                </Button>
+                <Button variant="outline" size="sm" asChild>
+                  <Link to="/signup">Sign Up</Link>
+                </Button>
+              </>
+            )}
+
             <Button size="sm" className="btn-primary" asChild>
               <Link to="/booking">Book Session</Link>
             </Button>

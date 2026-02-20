@@ -29,7 +29,7 @@ const footerLinks = {
 };
 
 const socialLinks = [
-  { icon: Facebook, href: "#", label: "Facebook" },
+  { icon: Facebook, href: "https://www.facebook.com/profile.php?id=61588006242531", label: "Facebook" },
   { icon: Instagram, href: "https://www.instagram.com/your.mindfulpath?utm_source=qr&igsh=MTZucmhubzcxYXFqZA==", label: "Instagram" },
 ];
 

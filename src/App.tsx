@@ -13,6 +13,8 @@ import Booking from "./pages/Booking";
 import NotFound from "./pages/NotFound";
 import Resources from "./pages/Resources";
 import Article from "./pages/Article";
+import Signup from "./pages/Signup";
+import { AuthProvider } from "@/context/AuthContext";
 
 const queryClient = new QueryClient();
 
@@ -21,6 +23,7 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
+      <AuthProvider>
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Index />} />
@@ -29,6 +32,7 @@ const App = () => (
           <Route path="/services/:id" element={<Services />} />
           <Route path="/resources" element={<Resources />} />
           <Route path="/resources/:slug" element={<Article />} />
+          <Route path="/signup" element={<Signup />} />
           <Route path="/therapists" element={<Therapists />} />
           <Route path="/assessment" element={<Assessment />} />
           <Route path="/contact" element={<Contact />} />
@@ -37,6 +41,7 @@ const App = () => (
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
+      </AuthProvider>
     </TooltipProvider>
   </QueryClientProvider>
 );
