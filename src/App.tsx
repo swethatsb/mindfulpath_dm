@@ -11,6 +11,8 @@ import Assessment from "./pages/Assessment";
 import Contact from "./pages/Contact";
 import Booking from "./pages/Booking";
 import NotFound from "./pages/NotFound";
+import Resources from "./pages/Resources";
+import Article from "./pages/Article";
 
 const queryClient = new QueryClient();
 
@@ -25,6 +27,8 @@ const App = () => (
           <Route path="/about" element={<About />} />
           <Route path="/services" element={<Services />} />
           <Route path="/services/:id" element={<Services />} />
+          <Route path="/resources" element={<Resources />} />
+          <Route path="/resources/:slug" element={<Article />} />
           <Route path="/therapists" element={<Therapists />} />
           <Route path="/assessment" element={<Assessment />} />
           <Route path="/contact" element={<Contact />} />

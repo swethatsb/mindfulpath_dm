@@ -1,36 +1,7 @@
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import { ArrowRight, Clock, User } from "lucide-react";
-
-const articles = [
-  {
-    title: "5 Daily Habits to Improve Your Mental Health",
-    excerpt: "Simple yet powerful practices you can incorporate into your daily routine to boost your mental wellness and resilience.",
-    category: "Self-Care",
-    author: "Dr. Sarah Chen",
-    readTime: "5 min read",
-    date: "Feb 5, 2026",
-    slug: "daily-habits-mental-health",
-  },
-  {
-    title: "Understanding Anxiety: Signs, Causes, and Coping Strategies",
-    excerpt: "Learn to recognize anxiety symptoms and discover evidence-based techniques to manage them effectively.",
-    category: "Anxiety",
-    author: "Dr. Michael Ross",
-    readTime: "8 min read",
-    date: "Feb 3, 2026",
-    slug: "understanding-anxiety",
-  },
-  {
-    title: "The Power of Mindfulness in Managing Stress",
-    excerpt: "Explore how mindfulness meditation can transform your relationship with stress and improve your overall well-being.",
-    category: "Mindfulness",
-    author: "Dr. Emily Park",
-    readTime: "6 min read",
-    date: "Feb 1, 2026",
-    slug: "mindfulness-stress-management",
-  },
-];
+import { articles } from "@/lib/articles";
 
 const categoryColors: Record<string, string> = {
   "Self-Care": "bg-sage-light text-sage-dark",
