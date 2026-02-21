@@ -3,28 +3,28 @@ import { Star, Quote } from "lucide-react";
 
 const testimonials = [
   {
-    name: "Sarah M.",
+    name: "Sarang P",
     role: "Marketing Professional",
     content: "MindfulPath helped me overcome my anxiety and find balance in my hectic work life. My therapist was incredibly understanding and equipped me with practical coping strategies.",
     rating: 5,
     image: null,
   },
   {
-    name: "James K.",
+    name: "Jahnvi",
     role: "University Student",
     content: "I was struggling with academic pressure and depression. The therapy sessions gave me tools to manage stress and improved my confidence. I'm now thriving in my studies.",
     rating: 5,
     image: null,
   },
   {
-    name: "Emily & David",
+    name: "Shreya & Rahul",
     role: "Married Couple",
     content: "Couples counselling transformed our relationship. We learned to communicate better and rediscovered why we fell in love. Highly recommend for any couple facing challenges.",
     rating: 5,
     image: null,
   },
   {
-    name: "Michael R.",
+    name: "Ravi Mishra",
     role: "Business Owner",
     content: "The corporate wellness program we implemented has significantly improved team morale and reduced burnout. Our employees feel more supported than ever.",
     rating: 5,
