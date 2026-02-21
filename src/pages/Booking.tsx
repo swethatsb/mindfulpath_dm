@@ -20,11 +20,11 @@ const services = [
 ];
 
 const therapists = [
-  { id: 1, name: "Dr. Sarah Mitchell", specialty: "Anxiety & Depression", experience: "12 years", avatar: "SM", rating: 4.9, available: true },
-  { id: 2, name: "Dr. James Chen", specialty: "Relationship Therapy", experience: "8 years", avatar: "JC", rating: 4.8, available: true },
-  { id: 3, name: "Dr. Emily Roberts", specialty: "Family Therapy", experience: "15 years", avatar: "ER", rating: 4.9, available: true },
-  { id: 4, name: "Dr. Michael Brown", specialty: "Career Counselling", experience: "10 years", avatar: "MB", rating: 4.7, available: false },
-  { id: 5, name: "Dr. Lisa Anderson", specialty: "Stress Management", experience: "9 years", avatar: "LA", rating: 4.8, available: true },
+  { id: 1, name: "Dr. Sarah", specialty: "Anxiety & Depression", experience: "12 years", avatar: "SM", rating: 4.9, available: true },
+  { id: 2, name: "Dr. Karan", specialty: "Relationship Therapy", experience: "8 years", avatar: "JC", rating: 4.8, available: true },
+  { id: 3, name: "Dr. Riya", specialty: "Family Therapy", experience: "15 years", avatar: "ER", rating: 4.9, available: true },
+  { id: 4, name: "Dr. Sunil", specialty: "Career Counselling", experience: "10 years", avatar: "MB", rating: 4.7, available: false },
+  { id: 5, name: "Dr. Pooja", specialty: "Stress Management", experience: "9 years", avatar: "LA", rating: 4.8, available: true },
 ];
 
 const timeSlots = [

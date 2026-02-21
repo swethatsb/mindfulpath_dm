@@ -16,7 +16,7 @@ export const articles: Article[] = [
     excerpt:
       "Simple yet powerful practices you can incorporate into your daily routine to boost your mental wellness and resilience.",
     category: "Self-Care",
-    author: "Dr. Sarah Chen",
+    author: "Dr. Sarah ",
     readTime: "5 min read",
     date: "Feb 5, 2026",
     slug: "daily-habits-mental-health",
@@ -153,7 +153,7 @@ export const articles: Article[] = [
     excerpt:
       "Learn to recognize anxiety symptoms and discover evidence-based techniques to manage them effectively.",
     category: "Anxiety",
-    author: "Dr. Michael Ross",
+    author: "Dr. Karan",
     readTime: "8 min read",
     date: "Feb 3, 2026",
     slug: "understanding-anxiety",
@@ -346,7 +346,7 @@ export const articles: Article[] = [
     excerpt:
       "Explore how mindfulness meditation can transform your relationship with stress and improve your overall well-being.",
     category: "Mindfulness",
-    author: "Dr. Emily Park",
+    author: "Dr. Riya Sharma",
     readTime: "6 min read",
     date: "Feb 1, 2026",
     slug: "mindfulness-stress-management",

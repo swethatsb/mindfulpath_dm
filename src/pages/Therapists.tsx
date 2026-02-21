@@ -7,7 +7,7 @@ import { Button } from "@/components/ui/button";
 
 const therapists = [
   {
-    name: "Dr. Sarah Chen",
+    name: "Dr. Sarah",
     title: "Clinical Psychologist",
     specializations: ["Anxiety", "Depression", "Trauma"],
     experience: 12,
@@ -19,7 +19,7 @@ const therapists = [
     bio: "Dr. Chen specializes in anxiety and trauma recovery, using evidence-based approaches to help clients achieve lasting change.",
   },
   {
-    name: "Dr. Michael Ross",
+    name: "Dr. Karan",
     title: "Licensed Therapist",
     specializations: ["Relationships", "Family Therapy", "Grief"],
     experience: 15,
@@ -31,7 +31,7 @@ const therapists = [
     bio: "Dr. Ross is passionate about helping couples and families build stronger, healthier relationships through compassionate therapy.",
   },
   {
-    name: "Dr. Emily Park",
+    name: "Dr. Riya",
     title: "Psychiatrist",
     specializations: ["Bipolar Disorder", "ADHD", "OCD"],
     experience: 10,
@@ -43,7 +43,7 @@ const therapists = [
     bio: "Dr. Park combines psychiatric expertise with therapeutic skills to provide comprehensive care for complex mental health conditions.",
   },
   {
-    name: "James Thompson",
+    name: "Dr. Sunil",
     title: "Licensed Counselor",
     specializations: ["Career", "Stress", "Life Transitions"],
     experience: 8,
@@ -55,7 +55,7 @@ const therapists = [
     bio: "James helps professionals navigate career challenges and life transitions with practical, goal-oriented counseling.",
   },
   {
-    name: "Dr. Aisha Patel",
+    name: "Dr. Pooja",
     title: "Clinical Psychologist",
     specializations: ["Children", "Adolescents", "Autism"],
     experience: 11,
@@ -67,7 +67,7 @@ const therapists = [
     bio: "Dr. Patel specializes in working with children and teens, creating safe spaces for young people to express and heal.",
   },
   {
-    name: "Lisa Martinez",
+    name: "Dr. Meena",
     title: "Marriage & Family Therapist",
     specializations: ["Couples", "Premarital", "Divorce"],
     experience: 9,
