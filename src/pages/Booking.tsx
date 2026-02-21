@@ -48,10 +48,6 @@ const Booking = () => {
   const [bookingRef, setBookingRef] = useState("");
   const navigate = useNavigate();
 
-  // navigate to confirmation page when booking is confirmed
-  const navigate = (global as any).window && (global as any).window.location ? null : null; // placeholder to avoid lint
-  // we'll import useNavigate dynamically to avoid top-level change in this large file
-
   const totalSteps = 5;
 
   const canProceed = () => {
@@ -91,9 +87,6 @@ const Booking = () => {
       
       <main className="pt-24 pb-16">
         <div className="container mx-auto px-4 max-w-4xl">
-          {bookingConfirmed ? (
-            {/* confirmation moved to separate page */}
-          ) : (
           <>
           {/* Progress Bar */}
           <div className="mb-8">
@@ -424,7 +417,6 @@ const Booking = () => {
             )}
           </div>
         </>
-          )}
         </div>
       </main>
 
