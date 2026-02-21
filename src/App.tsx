@@ -15,6 +15,7 @@ import Resources from "./pages/Resources";
 import Article from "./pages/Article";
 import Signup from "./pages/Signup";
 import { AuthProvider } from "@/context/AuthContext";
+import BookingConfirmation from "./pages/BookingConfirmation";
 
 const queryClient = new QueryClient();
 
@@ -33,6 +34,7 @@ const App = () => (
           <Route path="/resources" element={<Resources />} />
           <Route path="/resources/:slug" element={<Article />} />
           <Route path="/signup" element={<Signup />} />
+          <Route path="/booking/confirmation" element={<BookingConfirmation />} />
           <Route path="/therapists" element={<Therapists />} />
           <Route path="/assessment" element={<Assessment />} />
           <Route path="/contact" element={<Contact />} />
