@@ -16,7 +16,7 @@ const therapists = [
     rating: 4.9,
     reviews: 128,
     availability: "Mon, Wed, Fri",
-    bio: "Dr. Chen specializes in anxiety and trauma recovery, using evidence-based approaches to help clients achieve lasting change.",
+    bio: "Dr. Sarah specializes in anxiety and trauma recovery, using evidence-based approaches to help clients achieve lasting change.",
   },
   {
     name: "Dr. Karan",
@@ -28,7 +28,7 @@ const therapists = [
     rating: 4.8,
     reviews: 156,
     availability: "Tue, Thu, Sat",
-    bio: "Dr. Ross is passionate about helping couples and families build stronger, healthier relationships through compassionate therapy.",
+    bio: "Dr. Karan is passionate about helping couples and families build stronger, healthier relationships through compassionate therapy.",
   },
   {
     name: "Dr. Riya",
@@ -40,7 +40,7 @@ const therapists = [
     rating: 4.9,
     reviews: 89,
     availability: "Mon, Tue, Thu",
-    bio: "Dr. Park combines psychiatric expertise with therapeutic skills to provide comprehensive care for complex mental health conditions.",
+    bio: "Dr. Riya combines psychiatric expertise with therapeutic skills to provide comprehensive care for complex mental health conditions.",
   },
   {
     name: "Dr. Sunil",
@@ -52,7 +52,7 @@ const therapists = [
     rating: 4.7,
     reviews: 72,
     availability: "Mon-Fri",
-    bio: "James helps professionals navigate career challenges and life transitions with practical, goal-oriented counseling.",
+    bio: "Dr. Sunil helps professionals navigate career challenges and life transitions with practical, goal-oriented counseling.",
   },
   {
     name: "Dr. Pooja",
@@ -64,7 +64,7 @@ const therapists = [
     rating: 4.9,
     reviews: 94,
     availability: "Tue, Wed, Sat",
-    bio: "Dr. Patel specializes in working with children and teens, creating safe spaces for young people to express and heal.",
+    bio: "Dr. Pooja specializes in working with children and teens, creating safe spaces for young people to express and heal.",
   },
   {
     name: "Dr. Meena",
@@ -76,7 +76,7 @@ const therapists = [
     rating: 4.8,
     reviews: 113,
     availability: "Wed, Thu, Fri",
-    bio: "Lisa is dedicated to helping couples strengthen their bonds and navigate relationship challenges with empathy and expertise.",
+    bio: "Dr. Meena is dedicated to helping couples strengthen their bonds and navigate relationship challenges with empathy and expertise.",
   },
 ];
 
